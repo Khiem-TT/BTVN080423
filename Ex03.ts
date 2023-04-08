@@ -1,7 +1,5 @@
 function Ex03(str: string) {
-    let arr = str.split('');
-    arr.reverse();
-    return arr.join('');
+    return str.split('').reverse().join('');
 }
 
 let string = 'string';
